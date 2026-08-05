@@ -1,0 +1,217 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{setspace}
+
+\newcommand{\githublink}[1]{%
+    \href{#1}{\textcolor{blue}{\underline{\textit{[GitHub]}}}}%
+}
+
+\geometry{
+    a4paper,
+    left=0.55in,
+    right=0.55in,
+    top=0.50in,
+    bottom=0.28in
+}
+
+\titlespacing*{\section}{0pt}{0.62em}{0.26em}
+\setlist{
+    itemsep=0pt,
+    parsep=0pt,
+    topsep=0.08em,
+    partopsep=0pt
+}
+
+\begin{document}
+
+\pagestyle{empty}
+\setstretch{0.92}
+
+\begin{center}
+    {\LARGE \textbf{Haoyang Jiang}} \\[0.15em]
+    \href{mailto:haoyangjiang08@gmail.com}
+    {haoyangjiang08@gmail.com}
+    \hspace{1em}
+    +1 (801)-554-7538
+    \hspace{1em}
+    \href{https://linkedin.com/in/haoyang-jiang-7573872a4}
+    {LinkedIn}
+\end{center}
+
+\hrule
+\vspace{0.25em}
+
+\section*{\underline{Education}}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Ph.D. in Data Science}
+    \hfill
+    \textit{Expected Graduation: Dec. 2027} \\
+    College of William \& Mary, Williamsburg, VA
+
+    \item \textbf{Ph.D. in Mechanical Engineering (Transferred)}
+    \hfill
+    \textit{Aug. 2023 -- Aug. 2024} \\
+    University of Utah, Salt Lake City, UT
+
+    \item \textbf{M.S. in Astrometry and Celestial Mechanics}
+    \hfill
+    \textit{Sept. 2020 -- Jun. 2023} \\
+    University of Science and Technology of China, Hefei, China
+
+    \item \textbf{B.S. in Geophysics (Minor in Computer Science)}
+    \hfill
+    \textit{Sept. 2016 -- Jun. 2020} \\
+    China University of Mining and Technology, Beijing, China
+
+\end{itemize}
+
+\section*{\underline{Research Projects}}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Foundation Models for Forecasting and Data Assimilation}:
+    Extending a foundation model with in-context assimilation for
+    observation-guided long-horizon forecasting under sparse data and
+    distribution shift.
+
+    \item \textbf{Multi-Back Flow for Full-Waveform Inversion}
+    \githublink{https://github.com/HaoyangJiang-WM/FWI}:
+    Establishing a clean separation between prior training and inverse-task
+    inference, enabling generalization to new acquisition geometries and
+    variable source counts without paired task-specific retraining.
+
+    \item \textbf{Second-Order Optimal-Transport Flow Matching}
+    \githublink{https://github.com/HaoyangJiang-WM/2otcfm}:
+    Deriving a second-order phase-space framework from a minimum-acceleration
+    variational principle that unifies transport coupling, trajectories,
+    terminal-velocity closure, and acceleration supervision, delivering gains
+    across images, videos, and scientific systems.
+
+    \item \textbf{Boundary-Aware GNNs with Ghost Nodes}
+    \githublink{https://github.com/HaoyangJiang-WM/Ghost-Node-GNN}:
+    Introducing learned ghost-node proxies and physics-based refiners to
+    recover missing external forcing, reduce boundary errors, and stabilize
+    long-horizon forecasting on open physical networks.
+
+    \item \textbf{Physics-Guided Neural Flux Prediction}
+    \githublink{https://github.com/HaoyangJiang-WM/PhysicsNFP}:
+    Proposing directional difference operators and physics-consistent message
+    passing that preserve high-frequency flux information and distinguish
+    forward from reversed topology on directed physical networks.
+
+\end{itemize}
+
+\section*{\underline{Publications}}
+
+\begin{enumerate}[leftmargin=*]
+
+    \item Jiang H. Y., Qu Y. Z.
+    \textit{Fredholm Integral Equations Neural Operator (FIE-NO) for
+    Boundary Value Problems.}
+    Accepted by \textbf{Machine Learning: Engineering}, 2026.
+
+    \item Jiang H. Y., Wang J. D., He Y., et al.
+    \href{https://proceedings.mlr.press/v267/jiang25i.html}
+    {\textit{Topology-aware Neural Flux Prediction Guided by Physics}}.
+    In \textbf{ICML}, 2025.
+
+    \item Jiang H. Y., Zhang M. J., et al.
+    \textit{Orbital error propagation considering atmospheric density
+    uncertainty.}
+    \textbf{Advances in Space Research},
+    71(6), 2566--2574, 2023.
+
+    \item Jiang H. Y., Qu Y. Z.
+    \textit{Transfer Operator Learning with Fusion Frame.}
+    arXiv:2408.10458, 2024.
+
+\end{enumerate}
+
+\section*{\underline{Honors and Awards}}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Outstanding Graduate Student Award},
+    University of Science and Technology of China, 2022, 2023
+
+    \item \textbf{First-Class Scholarship},
+    China University of Mining and Technology (Beijing), 2018, 2019
+
+\end{itemize}
+
+\section*{\underline{Conferences for Invited Talks}}
+
+\begin{itemize}[leftmargin=*]
+
+    \item
+    \href{
+        https://midas.umich.edu/events/kgml-workshop-leading-the-new-paradigm-of-ai-for-science/
+    }
+    {\textit{Topology-Aware Graph Neural Networks by Physics}}. \\
+    KGML Workshop: Leading the New Paradigm of AI for Science,
+    University of Michigan, Ann Arbor, Aug. 2025.
+
+    \item
+    \textit{Maneuver detection in azimuth-elevation data of geosynchronous
+    satellites using machine learning methods.} \\
+    International Symposium on Space Flight Dynamics (ISSFD),
+    Beijing, Aug. 2022.
+
+    \item
+    \textit{Orbit error propagation considering atmospheric density
+    uncertainty.} \\
+    Youth Innovation Promotion Association of the Chinese Academy of Sciences,
+    Nanjing, Dec. 2021.
+
+\end{itemize}
+
+\section*{\underline{Professional Service}}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Reviewer}:
+    MM (2025), ICDM (2025, 2026), AAAI (2026),
+    ICLR (2026), KDD (2026), NeurIPS (2026)
+
+\end{itemize}
+
+\section*{\underline{Internship Experience}}
+
+\textbf{ORIGIN SPACE, Nanjing, China}
+\hfill
+\textit{Feb. 2022 -- Jun. 2022} \\
+
+\textit{Assistant Engineer Intern}
+
+\begin{itemize}[leftmargin=*]
+
+    \item Reproduced and benchmarked machine-learning and numerical methods on real-world engineering datasets.
+
+    \item Improved research prototypes through data preprocessing, parameter tuning, and runtime optimization.
+
+\end{itemize}
+
+\section*{\underline{Skills}}
+
+\begin{itemize}[leftmargin=*]
+
+    \item \textbf{Machine Learning}:
+    Neural Operators, Physics-Informed ML, Graph Neural Networks,
+    Generative Models
+
+    \item \textbf{Scientific Computing}:
+    Numerical Algorithms, PDE/ODE Solvers, Inverse Problems
+
+    \item \textbf{Programming}:
+    Python, MATLAB, and relevant ML libraries
+
+\end{itemize}
+
+\end{document}
