@@ -1,0 +1,53 @@
+# Haoyang Jiang
+
+[Email](mailto:haoyangjiang08@gmail.com) · +1 (801)-554-7538 · [LinkedIn](https://linkedin.com/in/haoyang-jiang-7573872a4) · [Download PDF](Haoyang_Jiang_Resume.pdf)
+
+## Education
+
+- **Ph.D. in Data Science**, College of William & Mary, Williamsburg, VA — *Expected Graduation: Dec. 2027*
+- **Ph.D. in Mechanical Engineering (Transferred)**, University of Utah, Salt Lake City, UT — *Aug. 2023 - Aug. 2024*
+- **M.S. in Astrometry and Celestial Mechanics**, University of Science and Technology of China, Hefei, China — *Sept. 2020 - Jun. 2023*
+- **B.S. in Geophysics (Minor in Computer Science)**, China University of Mining and Technology, Beijing, China — *Sept. 2016 - Jun. 2020*
+
+## Research Projects
+
+- **Foundation Models for Forecasting and Data Assimilation:** Extending a foundation model with in-context assimilation for observation-guided long-horizon forecasting under sparse data and distribution shift.
+- **Multi-Back Flow for Full-Waveform Inversion** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Establishing a clean separation between prior training and inverse-task inference, enabling generalization to new acquisition geometries and variable source counts without paired task-specific retraining.
+- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Deriving a second-order phase-space framework from a minimum-acceleration variational principle that unifies transport coupling, trajectories, terminal-velocity closure, and acceleration supervision, delivering gains across images, videos, and scientific systems.
+- **Boundary-Aware GNNs with Ghost Nodes** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)]: Introducing learned ghost-node proxies and physics-based refiners to recover missing external forcing, reduce boundary errors, and stabilize long-horizon forecasting on open physical networks.
+- **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Proposing directional difference operators and physics-consistent message passing that preserve high-frequency flux information and distinguish forward from reversed topology on directed physical networks.
+
+## Publications
+
+1. Jiang H. Y., Qu Y. Z. *Fredholm Integral Equations Neural Operator (FIE-NO) for Boundary Value Problems.* Accepted by **Machine Learning: Engineering**, 2026.
+2. Jiang H. Y., Wang J. D., He Y., et al. [*Topology-aware Neural Flux Prediction Guided by Physics*](https://proceedings.mlr.press/v267/jiang25i.html). In **ICML**, 2025.
+3. Jiang H. Y., Zhang M. J., et al. *Orbital error propagation considering atmospheric density uncertainty.* **Advances in Space Research**, 71(6), 2566-2574, 2023.
+4. Jiang H. Y., Qu Y. Z. *Transfer Operator Learning with Fusion Frame.* arXiv:2408.10458, 2024.
+
+## Honors and Awards
+
+- **Outstanding Graduate Student Award**, University of Science and Technology of China, 2022, 2023
+- **First-Class Scholarship**, China University of Mining and Technology (Beijing), 2018, 2019
+
+## Conferences for Invited Talks
+
+- [*Topology-Aware Graph Neural Networks by Physics*](https://midas.umich.edu/events/kgml-workshop-leading-the-new-paradigm-of-ai-for-science/). KGML Workshop: Leading the New Paradigm of AI for Science, University of Michigan, Ann Arbor, Aug. 2025.
+- *Maneuver detection in azimuth-elevation data of geosynchronous satellites using machine learning methods.* International Symposium on Space Flight Dynamics (ISSFD), Beijing, Aug. 2022.
+- *Orbit error propagation considering atmospheric density uncertainty.* Youth Innovation Promotion Association of the Chinese Academy of Sciences, Nanjing, Dec. 2021.
+
+## Professional Service
+
+- **Reviewer:** MM (2025), ICDM (2025, 2026), AAAI (2026), ICLR (2026), KDD (2026), NeurIPS (2026)
+
+## Internship Experience
+
+**ORIGIN SPACE, Nanjing, China** — *Assistant Engineer Intern, Feb. 2022 - Jun. 2022*
+
+- Reproduced and benchmarked machine-learning and numerical methods on real-world engineering datasets.
+- Improved research prototypes through data preprocessing, parameter tuning, and runtime optimization.
+
+## Skills
+
+- **Machine Learning:** Neural Operators, Physics-Informed ML, Graph Neural Networks, Generative Models
+- **Scientific Computing:** Numerical Algorithms, PDE/ODE Solvers, Inverse Problems
+- **Programming:** Python, MATLAB, and relevant ML libraries
