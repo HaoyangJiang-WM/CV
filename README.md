@@ -1,6 +1,6 @@
 # Haoyang Jiang
 
-[Email](mailto:haoyangjiang08@gmail.com) · +1 (801)-554-7538 · [LinkedIn](https://linkedin.com/in/haoyang-jiang-7573872a4) · [Download PDF](Haoyang_Jiang_Resume.pdf)
+[Email](mailto:haoyangjiang08@gmail.com) · [W&M Email](mailto:hjiang16@wm.edu) · +1 (801)-554-7538 · [LinkedIn](https://linkedin.com/in/haoyang-jiang-7573872a4) · [Download PDF](Haoyang_Jiang_Resume.pdf)
 
 ## Education
 
