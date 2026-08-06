@@ -13,8 +13,8 @@
 
 - **Foundation Models for Forecasting and Data Assimilation:** Adapting foundation models for observation-guided long-horizon forecasting under sparse data and distribution shift.
 - **Multi-Back Flow for Full-Waveform Inversion** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Improving FWI reconstruction with pretrained generative priors and inference-time optimization without task-specific retraining.
-- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Developing a second-order flow-matching framework for more accurate transport dynamics across images, videos, and scientific systems.
-- **Boundary-Aware Scientific Machine Learning:** **FIE-NO** addresses complex boundary conditions in neural operators via integral equations; **Ghost-Node GNNs** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)] recover missing boundary information in open physical networks as an inverse problem.
+- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Unifying position and velocity through a variational formulation, improving generation quality across images, videos, and scientific systems.
+- **Boundary-Aware Scientific Machine Learning:** **FIE-NO** [[Paper](https://arxiv.org/abs/2408.12389)] addresses complex boundary conditions in neural operators via integral equations; **Ghost-Node GNNs** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)] recover missing boundary information in open physical networks as an inverse problem.
 - **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Preserving directional and high-frequency flux information on directed physical networks with physics-consistent message passing.
 
 ## Publications
