@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'resume.tex'
+      - 'README.md'
       - '.github/workflows/build-resume.yml'
   workflow_dispatch:
 
