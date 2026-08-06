@@ -11,12 +11,11 @@
 
 ## Research Projects
 
-- **Multi-Back Flow for Full-Waveform Inversion** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Establishing a clean separation between prior training and inverse-task inference, enabling generalization to new acquisition geometries and variable source counts without paired task-specific retraining.
-- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Deriving a second-order phase-space framework from a minimum-acceleration variational principle that unifies transport coupling, trajectories, terminal-velocity closure, and acceleration supervision, delivering gains across images, videos, and scientific systems.
-- **Boundary-Aware Scientific Machine Learning:**
-  - **FIE-NO:** Addressing complex boundary conditions in neural operator learning through an integral-equation formulation.
-  - **Boundary-Aware GNNs with Ghost Nodes** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)]: Recovering missing boundary information in open physical networks through an inverse formulation.
-- **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Proposing directional difference operators and physics-consistent message passing that preserve high-frequency flux information and distinguish forward from reversed topology on directed physical networks.
+- **Foundation Models for Forecasting and Data Assimilation:** Adapting foundation models for observation-guided long-horizon forecasting under sparse data and distribution shift.
+- **Multi-Back Flow for Full-Waveform Inversion** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Improving FWI reconstruction with pretrained generative priors and inference-time optimization without task-specific retraining.
+- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Developing a second-order flow-matching framework for more accurate transport dynamics across images, videos, and scientific systems.
+- **Boundary-Aware Scientific Machine Learning:** **FIE-NO** addresses complex boundary conditions in neural operators via integral equations; **Ghost-Node GNNs** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)] recover missing boundary information in open physical networks as an inverse problem.
+- **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Preserving directional and high-frequency flux information on directed physical networks with physics-consistent message passing.
 
 ## Publications
 
