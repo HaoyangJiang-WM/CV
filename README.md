@@ -11,10 +11,11 @@
 
 ## Research Projects
 
-- **Foundation Models for Forecasting and Data Assimilation:** Extending a foundation model with in-context assimilation for observation-guided long-horizon forecasting under sparse data and distribution shift.
 - **Multi-Back Flow for Full-Waveform Inversion** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Establishing a clean separation between prior training and inverse-task inference, enabling generalization to new acquisition geometries and variable source counts without paired task-specific retraining.
 - **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Deriving a second-order phase-space framework from a minimum-acceleration variational principle that unifies transport coupling, trajectories, terminal-velocity closure, and acceleration supervision, delivering gains across images, videos, and scientific systems.
-- **Boundary-Aware GNNs with Ghost Nodes** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)]: Introducing learned ghost-node proxies and physics-based refiners to recover missing external forcing, reduce boundary errors, and stabilize long-horizon forecasting on open physical networks.
+- **Boundary-Aware Scientific Machine Learning:**
+  - **FIE-NO:** Addressing complex boundary conditions in neural operator learning through an integral-equation formulation.
+  - **Boundary-Aware GNNs with Ghost Nodes** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)]: Recovering missing boundary information in open physical networks through an inverse formulation.
 - **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Proposing directional difference operators and physics-consistent message passing that preserve high-frequency flux information and distinguish forward from reversed topology on directed physical networks.
 
 ## Publications
