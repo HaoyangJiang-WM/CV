@@ -4,7 +4,7 @@
 
 ## Education
 
-- **Ph.D. in Data Science**, College of William & Mary, Williamsburg, VA — *Expected Graduation: Dec. 2027*
+- **Ph.D. in Data Science**, College of William & Mary, Williamsburg, VA — *Expected Graduation: 2027*
 - **Ph.D. in Mechanical Engineering (Transferred)**, University of Utah, Salt Lake City, UT — *Aug. 2023 - Aug. 2024*
 - **M.S. in Astrometry and Celestial Mechanics**, University of Science and Technology of China, Hefei, China — *Sept. 2020 - Jun. 2023*
 - **B.S. in Geophysics (Minor in Computer Science)**, China University of Mining and Technology, Beijing, China — *Sept. 2016 - Jun. 2020*
