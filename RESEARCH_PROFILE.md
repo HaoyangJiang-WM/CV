@@ -37,13 +37,18 @@ I study how to make machine-learning models respect transport structure in open 
 
 The three studies form a common scientific-ML agenda: combining data-driven learning with physical structure when the modeled domain is incomplete, interacts with an unobserved exterior, and must remain stable under long-term prediction.
 
+## Space Systems Background
+
+Before my recent work in scientific ML for hydrologic systems, I worked on **satellite dynamics and space-system modeling**, including maneuver detection from azimuth–elevation observations and orbit-error propagation under **atmospheric-density uncertainty**. I also worked in a space-technology R&D environment at Origin Space, applying machine-learning and numerical methods to engineering problems. This background complements my current interest in combining physical models, observational data, uncertainty, and learning for Earth- and space-system applications.
+
 ## Relevance to Earth & Climate AI
 
 My work is particularly aligned with:
 
 - hydrologic and environmental forecasting on graph- and mesh-based physical domains;
 - physics-aware spatiotemporal learning under missing or latent external forcing;
-- scientific ML for stable simulation, forecasting, and decision-relevant Earth-system modeling.
+- scientific ML for stable simulation, forecasting, and decision-relevant Earth-system modeling;
+- physical-system modeling that integrates observational data and uncertainty across Earth and space applications.
 
 ---
 
