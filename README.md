@@ -2,6 +2,8 @@
 
 [Email](mailto:haoyangjiang08@gmail.com) · [W&M Email](mailto:hjiang16@wm.edu) · +1 (801)-554-7538 · [LinkedIn](https://linkedin.com/in/haoyang-jiang-7573872a4) · [CV PDF](Haoyang_Jiang_Resume.pdf) · [Research Profile](RESEARCH_PROFILE.md)
 
+**Research focus:** Scientific machine learning for physical systems, including Physical AI, physics-guided simulation, neural operators, inverse problems, data assimilation, and stable spatiotemporal modeling.
+
 ## Education
 
 - **Ph.D. in Data Science**, College of William & Mary, Williamsburg, VA — *Expected Graduation: 2027*
@@ -10,11 +12,12 @@
 
 ## Research Projects
 
-- **Foundation Models for Forecasting and Data Assimilation:** Adapting foundation models for observation-guided long-horizon forecasting under sparse data and distribution shift.
-- **Multi-Back Flow for Full-Waveform Inversion** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Improving FWI reconstruction with pretrained generative priors and inference-time optimization without task-specific retraining.
-- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Unifying position and velocity through a variational formulation, improving generation quality across images, videos, and scientific systems.
-- **Boundary-Aware Scientific Machine Learning:** **FIE-NO** [[Paper](https://arxiv.org/abs/2408.12389)] addresses complex boundary conditions in neural operators via integral equations; **Ghost-Node GNNs** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)] recover missing boundary information in open physical networks as an inverse problem.
-- **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Preserving directional and high-frequency flux information on directed physical networks with physics-consistent message passing.
+- **Physics-Guided Modeling and Simulation** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Developing structure-aware graph operators and physics-guided updates for directional transport, stable spatiotemporal prediction, and long-horizon simulation of networked physical systems.
+- **Neural Operators for Boundary Value Problems:** **FIE-NO** [[Paper](https://arxiv.org/abs/2408.12389)] uses Fredholm integral equations to learn solution operators under complex and varying boundary conditions.
+- **Inverse Modeling with Generative Priors** [[GitHub](https://github.com/HaoyangJiang-WM/FWI)]: Studying full-waveform inversion with pretrained generative priors and inference-time optimization for reconstruction under new physical configurations.
+- **Foundation Models for Forecasting and Data Assimilation:** Adapting pretrained spatiotemporal models for observation-guided long-horizon forecasting under sparse data and distribution shift.
+- **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Developing a phase-space generative framework that couples position, velocity, and acceleration through an optimal-transport variational formulation.
+- **Open-System and Boundary-Aware Learning** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)]: Learning latent exterior influence through boundary proxies and physics-based refinement to stabilize prediction in partially observed physical domains.
 - **Space Systems and Uncertainty Modeling:** Modeled satellite trajectories and studied orbit-error propagation under atmospheric-density uncertainty using machine-learning and numerical methods.
 
 ## Publications
@@ -49,6 +52,6 @@
 
 ## Skills
 
-- **Machine Learning:** Neural Operators, Physics-Informed ML, Graph Neural Networks, Generative Models
-- **Scientific Computing:** Numerical Algorithms, PDE/ODE Solvers, Inverse Problems
+- **Scientific ML:** Physics-Guided ML, Neural Operators, Graph Neural Networks, Generative Models, Data Assimilation
+- **Scientific Computing:** Numerical Algorithms, PDE/ODE Solvers, Inverse Problems, Optimization
 - **Programming:** Python, MATLAB, and relevant ML libraries
