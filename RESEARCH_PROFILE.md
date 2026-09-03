@@ -39,7 +39,7 @@ The three studies form a common scientific-ML agenda: combining data-driven lear
 
 ## Space Systems Background
 
-Before my recent work in scientific ML for hydrologic systems, I worked on **satellite dynamics and space-system modeling**, including maneuver detection from azimuth–elevation observations and orbit-error propagation under **atmospheric-density uncertainty**. I also worked in a space-technology R&D environment at Origin Space, applying machine-learning and numerical methods to engineering problems. This background complements my current interest in combining physical models, observational data, uncertainty, and learning for Earth- and space-system applications.
+Before my recent work in scientific ML for hydrologic systems, I worked on **satellite trajectory and space-system modeling**, including trajectory modeling from azimuth–elevation observations and orbit-error propagation under **atmospheric-density uncertainty**. I also worked in a space-technology R&D environment at Origin Space, applying machine-learning and numerical methods to engineering problems. This background complements my current interest in combining physical models, observational data, uncertainty, and learning for Earth- and space-system applications.
 
 ## Relevance to Earth & Climate AI
 
