@@ -23,7 +23,7 @@
 2. Jiang H. Y., Wang J. D., He Y., et al. [*Topology-aware Neural Flux Prediction Guided by Physics*](https://proceedings.mlr.press/v267/jiang25i.html). In **ICML**, 2025.
 3. Jiang H. Y., Zhang M. J., et al. *Orbital error propagation considering atmospheric density uncertainty.* **Advances in Space Research**, 71(6), 2566-2574, 2023.
 4. Jiang H. Y., Qu Y. Z. *Transfer Operator Learning with Fusion Frame.* arXiv:2408.10458, 2024.
-5. Jiang H. Y., Wang Z., Gao S., Zhang Y. J., Zhu X., He Y. [*Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs*](https://github.com/HaoyangJiang-WM/OpenBoundary). In **IEEE ICDM**, 2026.
+5. Jiang H. Y., Wang Z., Gao S., Zhang Y. J., Zhu X., He Y. [*Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs*](https://github.com/HaoyangJiang-WM/OpenBoundary/blob/main/ICDM_RefinedGNN.pdf). In **IEEE ICDM**, 2026.
 6. Jiang H. Y., Qu B., Zhu X., Tan J., He Y. [*Boundary-Consistent Graph Neural Networks for Topological Flux Prediction*](https://openreview.net/forum?id=31gTIfhoH0). **Transactions on Machine Learning Research (TMLR)**, 2026.
 
 ## Honors and Awards
