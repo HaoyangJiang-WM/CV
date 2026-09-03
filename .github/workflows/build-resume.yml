@@ -2,10 +2,11 @@ name: Build Resume PDF
 
 on:
   push:
-    branches: [main]
+    branches: [siemens-physical-ai]
     paths:
       - 'resume.tex'
       - 'README.md'
+      - 'RESEARCH_PROFILE.md'
       - '.github/workflows/build-resume.yml'
   workflow_dispatch:
 
@@ -13,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: resume-pdf-main
+  group: resume-pdf-siemens-physical-ai
   cancel-in-progress: true
 
 jobs:
@@ -24,6 +25,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
+          ref: siemens-physical-ai
           fetch-depth: 0
 
       - name: Compile LaTeX
@@ -45,6 +47,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Build resume PDF"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          git commit -m "Build Siemens-tailored resume PDF"
+          git pull --rebase origin siemens-physical-ai
+          git push origin HEAD:siemens-physical-ai
