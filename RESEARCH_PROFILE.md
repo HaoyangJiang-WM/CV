@@ -23,7 +23,7 @@ I study how to make machine-learning models respect transport structure in open 
 
 **Evidence.** Across two real-world fluid-network datasets, gTFP reduced average MSE by **8.5% and 5.4%**, boundary-node MSE by **11.0% and 6.8%**, and accelerated inference by up to **2×** depending on the backbone.
 
-### IEEE ICDM 2026 — [Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs](https://github.com/HaoyangJiang-WM/OpenBoundary)
+### IEEE ICDM 2026 — [Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs](https://github.com/HaoyangJiang-WM/OpenBoundary/blob/main/ICDM_RefinedGNN.pdf)
 
 **Problem.** Approximate or unobserved boundary forcing can continually inject error into autoregressive forecasts of open river and coastal systems, producing long-horizon drift.
 
