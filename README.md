@@ -5,7 +5,6 @@
 ## Education
 
 - **Ph.D. in Data Science**, College of William & Mary, Williamsburg, VA — *Expected Graduation: 2027*
-- **Ph.D. in Mechanical Engineering (Transferred)**, University of Utah, Salt Lake City, UT — *Aug. 2023 - Aug. 2024*
 - **M.S. in Astrometry and Celestial Mechanics**, University of Science and Technology of China, Hefei, China — *Sept. 2020 - Jun. 2023*
 - **B.S. in Geophysics (Minor in Computer Science)**, China University of Mining and Technology, Beijing, China — *Sept. 2016 - Jun. 2020*
 
@@ -16,6 +15,7 @@
 - **Second-Order Optimal-Transport Flow Matching** [[GitHub](https://github.com/HaoyangJiang-WM/2otcfm)]: Unifying position and velocity through a variational formulation, improving generation quality across images, videos, and scientific systems.
 - **Boundary-Aware Scientific Machine Learning:** **FIE-NO** [[Paper](https://arxiv.org/abs/2408.12389)] addresses complex boundary conditions in neural operators via integral equations; **Ghost-Node GNNs** [[GitHub](https://github.com/HaoyangJiang-WM/Ghost-Node-GNN)] recover missing boundary information in open physical networks as an inverse problem.
 - **Physics-Guided Neural Flux Prediction** [[GitHub](https://github.com/HaoyangJiang-WM/PhysicsNFP)]: Preserving directional and high-frequency flux information on directed physical networks with physics-consistent message passing.
+- **Space Systems and Uncertainty Modeling:** Studied satellite maneuver detection from azimuth-elevation observations and orbit-error propagation under atmospheric-density uncertainty using machine-learning and numerical methods.
 
 ## Publications
 
@@ -45,8 +45,8 @@
 
 **ORIGIN SPACE, Nanjing, China** — *Assistant Engineer Intern, Feb. 2022 - Jun. 2022*
 
-- Reproduced and benchmarked machine-learning and numerical methods on real-world engineering datasets.
-- Improved research prototypes through data preprocessing, parameter tuning, and runtime optimization.
+- Applied machine-learning and numerical methods in a space-technology R&D setting, reproducing and benchmarking research algorithms on engineering data.
+- Improved research prototypes through data preprocessing, parameter tuning, and runtime optimization for engineering deployment.
 
 ## Skills
 
