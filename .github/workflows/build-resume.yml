@@ -28,9 +28,13 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: resume.tex
-      - name: Publish both CV filenames
+      - name: Check exactly one page
         run: |
           test -s resume.pdf
+          grep -Eq 'Output written on resume\.pdf \(1 page,' resume.log
+          echo 'PASS: LaTeX compiled an exactly one-page CV.'
+      - name: Publish both CV filenames
+        run: |
           cp resume.pdf Haoyang_Jiang_CV.pdf
           cp resume.pdf Haoyang_Jiang_Resume.pdf
           cmp Haoyang_Jiang_CV.pdf Haoyang_Jiang_Resume.pdf
@@ -44,11 +48,11 @@ jobs:
             echo "PDFs are already up to date."
             exit 0
           fi
-          git commit -m "Build general professional CV PDF"
+          git commit -m "Build one-page application CV PDF"
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Save CV artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Haoyang-Jiang-Professional-CV
+          name: Haoyang-Jiang-One-Page-CV
           path: Haoyang_Jiang_CV.pdf

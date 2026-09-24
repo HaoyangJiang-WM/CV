@@ -1,132 +1,65 @@
-\documentclass[10pt,letterpaper]{article}
+\documentclass[11pt,letterpaper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[default]{sourcesanspro}
-\usepackage{geometry,xcolor,enumitem,titlesec,fancyhdr}
+\usepackage{lmodern}
+\usepackage[letterpaper,left=0.52in,right=0.52in,top=0.43in,bottom=0.43in]{geometry}
+\usepackage{enumitem,titlesec,microtype,xcolor}
 \usepackage[hidelinks]{hyperref}
-\geometry{left=0.68in,right=0.68in,top=0.57in,bottom=0.58in}
-\definecolor{ink}{HTML}{172A32}
-\definecolor{accent}{HTML}{244E5B}
-\definecolor{muted}{HTML}{52616A}
-\definecolor{rulecolor}{HTML}{D6DFE2}
-\hypersetup{pdftitle={Haoyang Jiang - Curriculum Vitae},pdfauthor={Haoyang Jiang},pdfsubject={Scientific machine learning, dynamical systems and inverse problems}}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\hypersetup{pdftitle={Haoyang Jiang - CV},pdfauthor={Haoyang Jiang},pdfsubject={Scientific machine learning and physical dynamical systems}}
+\pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\linespread{1.045}
-\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
-\fancyfoot[L]{\small\color{muted}Haoyang Jiang \enspace / \enspace Curriculum Vitae}
-\fancyfoot[R]{\small\color{muted}\thepage\,/\,2}
-\setlength{\footskip}{22pt}
-\titleformat{\section}{\large\bfseries\color{accent}}{}{0pt}{}[\vspace{-3pt}\color{rulecolor}\titlerule]
-\titlespacing*{\section}{0pt}{10pt}{6pt}
-\setlist[itemize]{leftmargin=12pt,label=\textbullet,itemsep=2pt,topsep=3pt,parsep=0pt,partopsep=0pt}
-\newcommand{\role}[2]{\textbf{#1}\hfill{\small\color{muted}#2}\par}
-\newcommand{\project}[2]{\vspace{5pt}\textbf{#1}\hfill{\small #2}\par}
-\newcommand{\plink}[2]{\href{#1}{\color{accent}#2}}
-\newcommand{\me}{\textbf{H. Jiang}}
-\begin{document}\color{ink}\raggedright
-\hyphenpenalty=10000\exhyphenpenalty=10000
-{\fontsize{27}{29}\selectfont\bfseries Haoyang Jiang}\par
-\vspace{4pt}
-{\large\color{accent}Scientific Machine Learning \enspace | \enspace Dynamical Systems \enspace | \enspace Inverse Problems}\par
-\vspace{7pt}
-William \& Mary, Williamsburg, Virginia \enspace\textbar\enspace \href{mailto:hjiang16@wm.edu}{hjiang16@wm.edu}\par
-\vspace{2pt}
-\plink{https://haoyangjiang-wm.github.io/}{Website}\enspace / \enspace
-\plink{https://github.com/HaoyangJiang-WM}{GitHub}\enspace / \enspace
-\plink{https://scholar.google.com/citations?user=q6923RoAAAAJ}{Google Scholar}\enspace / \enspace
-\plink{https://www.linkedin.com/in/haoyang-jiang-7573872a4/}{LinkedIn}\enspace / \enspace
-\plink{https://haoyangjiang-wm.github.io/neural-equation-demos/}{Interactive research demos}
+\setlength{\emergencystretch}{1em}
+\linespread{1.065}
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{}[\vspace{-4pt}\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+\setlist[itemize]{leftmargin=13pt,itemsep=3pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=15pt,itemsep=2pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\newcommand{\link}[2]{\href{#1}{\textcolor{blue}{#2}}}
+\begin{document}
+\begin{center}
+{\Large\bfseries Haoyang Jiang}\\[2pt]
+{\small\href{mailto:haoyangjiang08@gmail.com}{haoyangjiang08@gmail.com}\enspace|\enspace\href{mailto:hjiang16@wm.edu}{hjiang16@wm.edu}\enspace|\enspace +1 (801)-554-7538\enspace|\enspace\link{https://www.linkedin.com/in/haoyang-jiang-7573872a4/}{LinkedIn}\enspace|\enspace\link{https://github.com/HaoyangJiang-WM}{GitHub}}
+\end{center}
+\vspace{-7pt}
+\section*{RESEARCH PROFILE}
+Ph.D. researcher in \textbf{scientific machine learning for physical dynamical systems}, spanning neural operators, physics-guided forecasting, differentiable simulation, inverse problems, and data assimilation. Background in geophysics and numerical dynamics, with Python/PyTorch-based research and reproducible evaluation.
 
-\section*{Research Profile}
-Ph.D. researcher developing machine-learning methods for physical dynamical systems. Research spans neural operators, physics-guided graph learning, generative inverse modeling, and data assimilation, with applications in hydrology, geophysics, and space systems.
+\section*{EDUCATION}
+\textbf{William \& Mary}, Williamsburg, VA\hfill\textit{Expected 2027}\\
+Ph.D. in Data Science\\[3pt]
+\textbf{University of Science and Technology of China}, Hefei, China\hfill\textit{2023}\\
+M.S. in Astrometry and Celestial Mechanics\\[3pt]
+\textbf{China University of Mining and Technology (Beijing)}, Beijing, China\hfill\textit{2020}\\
+B.S. in Geophysics; Minor in Computer Science
 
-\section*{Education}
-\role{William \& Mary}{Expected 2027}
-Ph.D. in Data Science \hfill Williamsburg, Virginia\par
-\vspace{5pt}
-\role{University of Science and Technology of China}{Sep. 2020 -- Jun. 2023}
-M.S. in Astrometry and Celestial Mechanics \hfill Hefei, China\par
-{\small\color{muted}Research: data assimilation, atmospheric-density uncertainty propagation, and numerical dynamics.}\par
-\vspace{5pt}
-\role{China University of Mining and Technology (Beijing)}{Sep. 2016 -- Jun. 2020}
-B.S. in Geophysics; Minor in Computer Science \hfill Beijing, China\par
-{\small\color{muted}Research background: seismic forward modeling, inversion, and computational geophysics.}
-
-\section*{Research Experience}
-\project{Physics-guided forecasting on open physical networks}{\plink{https://github.com/HaoyangJiang-WM/OpenBoundary}{Code}}
+\section*{SELECTED RESEARCH}
 \begin{itemize}
-\item Develop graph-based models for river and coastal systems, combining learned boundary forcing with physics-guided transport and long-horizon forecasting.
-\item Study the Danube river network and Chesapeake Bay mesh; the ICDM study reports a 38.3\% average RMSE reduction relative to its spatiotemporal GNN backbone across reported horizons.
-\end{itemize}
-\project{Neural operators and boundary-value problems}{\plink{https://github.com/HaoyangJiang-WM/CV/blob/main/RESEARCH_PROFILE.md}{Research}}
-\begin{itemize}
-\item Develop Fredholm-integral-equation neural operators for boundary-value problems and learned ghost-node representations for missing boundary context in physical networks.
-\item Connect integral formulations, graph topology, and numerical propagation to improve learning when the modeled domain is incomplete.
-\end{itemize}
-\project{Generative models and scientific inverse problems}{\plink{https://github.com/HaoyangJiang-WM/FWI}{FWI}\enspace / \enspace\plink{https://github.com/HaoyangJiang-WM/2otcfm}{Flow matching}}
-\begin{itemize}
-\item Combine pretrained generative priors with inference-time optimization for full-waveform inversion, without paired retraining for each new observation.
-\item Investigate second-order optimal-transport flow matching and variational formulations linking position and velocity in generative dynamics.
-\end{itemize}
-\project{Neural differential, delay, and integral equations}{\plink{https://haoyangjiang-wm.github.io/neural-equation-demos/}{Live demos}}
-\begin{itemize}
-\item Implement end-to-end Neural ODE, learned-delay DDE, and neural integral models for continuous-time prediction and boundary-driven sensor responses.
-\item Evaluate long-horizon and frequency-shift behavior with discrete and implicit adjoints, differentiable history interpolation, gradient checks, and numerical-refinement tests.
-\end{itemize}
-\project{Satellite dynamics and uncertainty propagation}{}
-\begin{itemize}
-\item Studied satellite trajectory modeling and orbital-error propagation under atmospheric-density uncertainty using numerical and machine-learning methods.
+\item \textbf{Neural Operators and Physics-Guided Forecasting} \link{https://github.com/HaoyangJiang-WM/OpenBoundary}{[GitHub]}: Developed Fredholm-integral methods for PDE boundary-value problems and open-boundary hydrodynamic models with learned boundary context and direction-aware physics refinement; built a shallow-water finite-volume solver for validation.
+\item \textbf{Differentiable Wave-Equation Inverse Modeling} \link{https://github.com/HaoyangJiang-WM/FWI}{[GitHub]}: Built acoustic forward modeling and full-waveform inversion in PyTorch/autograd, combining multiscale objectives, learned generative priors, and gradient-based optimization; background in seismic forward modeling and inversion.
+\item \textbf{Data Assimilation and Uncertainty Propagation}: Built observation-guided workflows for sparse measurements and distribution shift; M.S. research quantified how atmospheric-density uncertainty drives orbital-state error growth.
+\item \textbf{Continuous-Time and Generative Dynamics} \link{https://haoyangjiang-wm.github.io/neural-equation-demos/}{[Demos]}: Investigate learned flow maps, consistency, and flow matching; implement Neural ODE, learned-delay DDE, and integral models with differentiable solvers, adjoint methods, and long-horizon evaluation.
 \end{itemize}
 
-\newpage
-\section*{Publications}
-\begin{enumerate}[leftmargin=16pt,label={\arabic*.},itemsep=8pt,topsep=1pt,parsep=0pt]
-\item \me, Z. Wang, S. Gao, Y. J. Zhang, X. Zhu, and Y. He.
-\plink{https://github.com/HaoyangJiang-WM/OpenBoundary/blob/main/ICDM_RefinedGNN.pdf}{\textit{Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs.}}
-\textbf{IEEE ICDM}, 2026, accepted.\\
-{\small\color{accent}Selected among ICDM's best-ranked papers; invited to submit an extended version to KAIS.}
-\item \me, B. Qu, X. Zhu, J. Tan, and Y. He.
-\plink{https://openreview.net/forum?id=31gTIfhoH0}{\textit{Boundary-Consistent Graph Neural Networks for Topological Flux Prediction.}}
-\textbf{Transactions on Machine Learning Research}, 2026.
-\item \me\ and Y. Z. Qu.
-\textit{Fredholm Integral Equations Neural Operator (FIE-NO) for Boundary Value Problems.}
-\textbf{Machine Learning: Engineering}, 2026, accepted.
-\item \me, J. D. Wang, Y. He, et al.
-\plink{https://proceedings.mlr.press/v267/jiang25i.html}{\textit{Topology-aware Neural Flux Prediction Guided by Physics.}}
-\textbf{ICML}, 2025.
-\item \me, M. J. Zhang, et al.
-\textit{Orbital error propagation considering atmospheric density uncertainty.}
-\textbf{Advances in Space Research}, 71(6), 2566--2574, 2023.
+\section*{SELECTED PUBLICATIONS}
+\begin{enumerate}
+\item H. Jiang, Z. Wang, S. Gao, Y. J. Zhang, X. Zhu, Y. He. \textit{Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs.} \textbf{IEEE ICDM}, 2026. \textbf{Selected among the best-ranked papers; invited for KAIS extension.}
+\item H. Jiang, B. Qu, X. Zhu, J. Tan, Y. He. \textit{Boundary-Consistent Graph Neural Networks for Topological Flux Prediction.} \textbf{TMLR}, 2026.
+\item H. Jiang, Y. Qu. \textit{Fredholm Integral Equations Neural Operator (FIE-NO) for Boundary Value Problems.} \textbf{Machine Learning: Engineering}, 2026.
+\item H. Jiang, J. Wang, Y. He, et al. \textit{Topology-aware Neural Flux Prediction Guided by Physics.} \textbf{ICML}, 2025.
+\item H. Jiang, M. Zhang, et al. \textit{Orbital error propagation considering atmospheric density uncertainty.} \textbf{Advances in Space Research}, 2023.
 \end{enumerate}
 
-\section*{Industry Experience}
-\role{Origin Space \enspace | \enspace Assistant Engineer Intern}{Feb. 2022 -- Jun. 2022}
-Nanjing, China
+\section*{ENGINEERING EXPERIENCE}
+\textbf{ORIGIN SPACE} --- Assistant Engineer Intern\hfill\textit{Feb. 2022 -- Jun. 2022}
 \begin{itemize}
-\item Applied machine-learning and numerical methods to space-technology research, including reproducing and benchmarking algorithms on engineering data.
-\item Improved research prototypes through data preprocessing, parameter tuning, and runtime optimization.
+\item Reproduced and benchmarked machine-learning and numerical algorithms for aerospace engineering R\&D, evaluating accuracy, robustness, and computational cost; improved research prototypes for practical deployment.
 \end{itemize}
 
-\section*{Technical Skills}
-\textbf{Machine learning:} Physics-guided learning, neural operators, graph neural networks, generative models, flow matching, and continuous-time neural models.\par
-\vspace{4pt}
-\textbf{Scientific computing:} ODE/PDE solvers, differentiable simulation, adjoint methods, inverse problems, data assimilation, uncertainty propagation, and numerical optimization.\par
-\vspace{4pt}
-\textbf{Programming:} Python, PyTorch, NumPy, SciPy, MATLAB, Git, and LaTeX.
-
-\section*{Invited Talks}
-\begin{itemize}
-\item \textit{Topology-Aware Graph Neural Networks by Physics.} KGML Workshop: Leading the New Paradigm of AI for Science, University of Michigan, Ann Arbor, Aug. 2025.
-\item \textit{Satellite trajectory modeling using machine learning methods.} International Symposium on Space Flight Dynamics, Beijing, Aug. 2022.
-\item \textit{Orbit error propagation considering atmospheric density uncertainty.} Youth Innovation Promotion Association of the Chinese Academy of Sciences, Nanjing, Dec. 2021.
-\end{itemize}
-
-\section*{Professional Service}
-\textbf{Reviewer:} ACM Multimedia (2025); IEEE ICDM (2025, 2026); AAAI, ICLR, KDD, and NeurIPS (2026).
-
-\section*{Honors}
-\textbf{Outstanding Graduate Student Award}, USTC, 2022 and 2023.\par
-\vspace{3pt}
-\textbf{First-Class Scholarship}, China University of Mining and Technology (Beijing), 2018 and 2019.
+\section*{TECHNICAL SKILLS}
+\textbf{Scientific ML:} Neural operators, physics-informed ML, GNNs, flow/generative models, Neural ODE/DDE/NIE.\\
+\textbf{Numerical Methods:} PDE/ODE solvers, finite volumes, inverse problems, optimization, data assimilation.\\
+\textbf{Programming:} Python, PyTorch/autograd, PyG, NumPy/SciPy, MATLAB.
 \end{document}

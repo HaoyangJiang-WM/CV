@@ -4,7 +4,7 @@
 
 Ph.D. researcher in Data Science at William & Mary, expected 2027. I develop machine-learning methods for physical systems, with research spanning neural operators, physics-guided graph learning, generative inverse modeling, data assimilation, and uncertainty propagation.
 
-[Professional CV (PDF)](Haoyang_Jiang_CV.pdf) · [Website](https://haoyangjiang-wm.github.io/) · [Research demos](https://haoyangjiang-wm.github.io/neural-equation-demos/) · [Google Scholar](https://scholar.google.com/citations?user=q6923RoAAAAJ) · [LinkedIn](https://www.linkedin.com/in/haoyang-jiang-7573872a4/) · [Email](mailto:hjiang16@wm.edu)
+[One-page CV (PDF)](Haoyang_Jiang_CV.pdf) · [Website](https://haoyangjiang-wm.github.io/) · [Research demos](https://haoyangjiang-wm.github.io/neural-equation-demos/) · [Google Scholar](https://scholar.google.com/citations?user=q6923RoAAAAJ) · [LinkedIn](https://www.linkedin.com/in/haoyang-jiang-7573872a4/) · [Email](mailto:hjiang16@wm.edu)
 
 ## Education
 
@@ -28,8 +28,8 @@ Ph.D. researcher in Data Science at William & Mary, expected 2027. I develop mac
 4. **Topology-aware Neural Flux Prediction Guided by Physics.** ICML, 2025. [Paper](https://proceedings.mlr.press/v267/jiang25i.html)
 5. **Orbital error propagation considering atmospheric density uncertainty.** Advances in Space Research, 71(6), 2566–2574, 2023.
 
-The two-page PDF includes research experience, industry experience, technical skills, invited talks, professional service, and honors. It is a general professional CV, not an employer-specific application.
+The one-page PDF follows the layout of my earlier application CVs: research profile, education, selected research, selected publications, engineering experience, and technical skills. It is a general-purpose application CV, not an employer-specific version.
 
 ## Source and build
 
-`resume.tex` is the CV source. GitHub Actions compiles it into `Haoyang_Jiang_CV.pdf` and refreshes the legacy `Haoyang_Jiang_Resume.pdf` link with the same content. Existing application-specific files are left unchanged.
+`resume.tex` is the CV source. GitHub Actions checks that the compiled document has exactly one page, publishes `Haoyang_Jiang_CV.pdf`, and refreshes the legacy `Haoyang_Jiang_Resume.pdf` link with the same content. Existing application-specific files are left unchanged.
