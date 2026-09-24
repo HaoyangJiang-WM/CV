@@ -22,11 +22,12 @@ Ph.D. researcher in Data Science at William & Mary, expected 2027. I develop mac
 
 ## Publications
 
-1. **Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs.** IEEE ICDM 2026, accepted. Selected among the conference's best-ranked papers; invited to submit an extended version to KAIS. [Paper](https://github.com/HaoyangJiang-WM/OpenBoundary/blob/main/ICDM_RefinedGNN.pdf)
-2. **Boundary-Consistent Graph Neural Networks for Topological Flux Prediction.** TMLR, 2026. [Paper](https://openreview.net/forum?id=31gTIfhoH0)
-3. **Fredholm Integral Equations Neural Operator (FIE-NO) for Boundary Value Problems.** Machine Learning: Engineering, 2026, accepted.
-4. **Topology-aware Neural Flux Prediction Guided by Physics.** ICML, 2025. [Paper](https://proceedings.mlr.press/v267/jiang25i.html)
-5. **Orbital error propagation considering atmospheric density uncertainty.** Advances in Space Research, 71(6), 2566–2574, 2023.
+1. **VTV-FM: Flow Matching through Variational Terminal-Velocity Closure.** NeurIPS 2026, accepted.
+2. **Physics-Refined Spatiotemporal Forecasting on Open-Boundary Hydrologic Graphs.** IEEE ICDM 2026, accepted. Selected among the conference's best-ranked papers; invited to submit an extended version to KAIS. [Paper](https://github.com/HaoyangJiang-WM/OpenBoundary/blob/main/ICDM_RefinedGNN.pdf)
+3. **Boundary-Consistent Graph Neural Networks for Topological Flux Prediction.** TMLR, 2026. [Paper](https://openreview.net/forum?id=31gTIfhoH0)
+4. **Fredholm Integral Equations Neural Operator (FIE-NO) for Boundary Value Problems.** Machine Learning: Engineering, 2026, accepted.
+5. **Topology-aware Neural Flux Prediction Guided by Physics.** ICML, 2025. [Paper](https://proceedings.mlr.press/v267/jiang25i.html)
+6. **Orbital error propagation considering atmospheric density uncertainty.** Advances in Space Research, 71(6), 2566–2574, 2023.
 
 The one-page PDF follows the layout of my earlier application CVs: research profile, education, selected research, selected publications, engineering experience, and technical skills. It is a general-purpose application CV, not an employer-specific version.
 
